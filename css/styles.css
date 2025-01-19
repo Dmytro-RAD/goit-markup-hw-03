@@ -188,11 +188,7 @@ img {
 .advantages-list {
   display: flex;
   gap: 24px;
-  align-items: stretch;
-}
-
-.advantages-item {
-  width: calc((100% - 72px) / 4);
+  justify-content: center;
 }
 
 .tilte-list {
@@ -207,7 +203,7 @@ img {
 .text-section-two {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.015em;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -236,7 +232,7 @@ img {
 .cards-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
+  justify-content: center;
 }
 
 .cards-item {
